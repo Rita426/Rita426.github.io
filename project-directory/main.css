@@ -63,8 +63,7 @@ h1 {
 }
 
 .bike {
-    display: flex;
-    justify-content: center;
+   margin-left: 80px;
 }
 
 .apply {
@@ -108,21 +107,26 @@ h2 {
     margin: 20px;
 }
 
-.apply p {
+form p {
     font-size: 20px;
     margin:20px;
 }
 
 button {
-    background-color: #57eeab;
-    margin: 10px 20px;
+    margin-left: 20px;
     width: 90%;
     height: 40px;
+    background-color: #57eeab;
     border-color: #57eeab;
     border-radius: 6px;
     font-size: 30px;
     font-weight: bolder;
 }
+
+.check {
+    margin-left: 20px;
+}
+
 
 span {
     color: #ff8480;
@@ -130,16 +134,18 @@ span {
 
 footer {
     background-color: #fffd8c;
-    padding: 30px;
+    padding: 10px;
 }
 
 h3 {
     font-size: 30px;
     font-weight: bolder;
+    margin:15px;
 }
 
 footer p {
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 15px;
 }
 
 #hours-city {
@@ -163,6 +169,53 @@ footer p {
 .icons {
     display: flex;
     justify-content: space-around;
+    margin:10px;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.logo {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 40px;
+}
+
+.banner p {
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+#background-image {
+    margin-left: 100px;
+}
+
+.check {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+#hours {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 250px;
 }
 
 
@@ -186,12 +239,5 @@ footer p {
 
 
 
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
 
 }

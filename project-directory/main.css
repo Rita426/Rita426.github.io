@@ -80,19 +80,88 @@ h1 {
     background-color:wheat;
 }
 
-
 .apply-form {
-    margin: 5px;
+    margin: 
 }
+
 .apply-form-section {
     padding: 4px;
+    display: flex;
+    justify-content: center;
 }
 
 .apply-form-input {
-    width: 100%;
+    width: 90%;
+    height: 25px;
     border-radius: 4px;
+    background-color: #f7f7ff;
 }
-    
+
+#agree .apply-form-section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.apply p {
+    font-size: 20px;
+    margin:20px;
+}
+
+button {
+    background-color: #57eeab;
+    margin: 10px 20px;
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+span {
+    color: #ff8480;
+}
+
+footer {
+    background-color: #fffd8c;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+#hours-city {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hours-info {
+    margin: 10px;
+    padding: 10px;
+}
+
+#calculate.calculate {
+    color: white;
+    background-color: #ff8480;
+    border-radius: 6px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 

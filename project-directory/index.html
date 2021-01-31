@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing-page</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
  </head>
  
  <body>
@@ -16,13 +18,14 @@
      <h1 class="banner-title">Want to be your owner boss?</h1>
      <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
  </section>
- <section id="background-image">
+ <section id="background-image" class="bike">
      <img src="images/images/bg-image/scooter.svg" alt="background-image">
  </section>
- <section id="apply-info" class="apply-info">
+ <section class="apply">
+ <form action="apply-info" method="post" class="apply-info">
      <h2 class="section-title">Apply Now</h2>
      <p>Enter your info blow.</p>
-     <form class="apply-form">
+     <div class="apply-form">
      <div class="apply-form-section">
          <input class="apply-form-input" type="text" placeholder="First name">
      </div>
@@ -30,7 +33,7 @@
          <input class="apply-form-input" type="text" placeholder="Last name">
      </div>
      <div class="apply-form-section">
-         <input class="apply-form-inptu" type="tel" placeholder="Phone number">
+         <input class="apply-form-input" type="tel" placeholder="Phone number">
      </div>
      <div class="apply-form-section">
          <input class="apply-form-input" type="email" placeholder="Email Adress">
@@ -41,23 +44,23 @@
      </div>
      <button type="submit">DRIVE WITH US</button>
      <p>Already applied? <span>Check your application statues here</span></p>
-     </form>
+    </div>
+    </form>
  </section>
  </main>
  <footer>
      <h3 class="footer-title">See how much you can earn with Dash.</h3>
       <p>how many hours do you want to drive with us this week?</p>
  <section class="hours-info" id="hours-info">
-     <div><form class="hours-info">
+     <div><label class="hours-info">
          <input class="hours-info-input" type="number" placeholder="Hours">
      </div>
-     <div><form class="hours-info">
+     <div><label class="hours-info">
          <input class="hours-info-input" type="text" placeholder="City">
      </div>
         <button type="submit">CALCULATE</button>
-     </form>
- </section id="icons" class="icons">
- <section>
+ </section>
+ <section id="icons" class="icons">
      <img src="images/images/icons/facebook.svg" alt="facebook">
      <img src="images/images/icons/instagram.svg" alt="ins">
      <img src="images/images/icons/twitter.svg" alt="twitter">

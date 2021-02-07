@@ -42,55 +42,61 @@ table {
 	border-spacing: 0;
 }
 
-/* ------------custom CSS ----------*/
+
+
 body {
     max-width: 1200px;
     margin: 0 auto;
     width: 95%;
 }
 
+
 .logo {
-    width: 30%;
+    width: 50%;
 }
 
-#main {
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-}
-
-#banner {
-    margin: 0, auto;
-}
 
 h1 {
-    font-size: 70px;
+    font-size: 90px;
     font-weight: bolder;
-    line-height: 80px;
-    padding-bottom: 10px;
-    
+    margin-left: 25px;
 }
 
 .banner p {
-    font-size: 20px;
-    line-height: 20px;
-    padding-top: 15px;
+    margin-left: 25px;
+    font-size: 35px;
 }
 
 #background-image {
-    width: 100%;
+    width: 70%;
+    float: center;
+}
+
+.bike {
+   margin-left: 80px;
+}
+
+.apply {
+    display: flex;
+    justify-content: center;
 }
 
  form {
-    width: 100%;
+    width: 70%;
     padding: 5px;
     border: 2px solid white;
     border-radius: 15px;
     background-color:wheat;
 }
 
+.apply-form {
+    margin: 
+}
+
 .apply-form-section {
     padding: 4px;
+    display: flex;
+    justify-content: center;
 }
 
 .apply-form-input {
@@ -107,7 +113,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 20px;
 }
 
@@ -131,6 +137,7 @@ button {
     margin-left: 20px;
 }
 
+
 span {
     color: #ff8480;
 }
@@ -141,19 +148,14 @@ footer {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     margin:15px;
 }
 
 footer p {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 15px;
-}
-
-#hours.hours {
-    display: flex;
-    flex-direction: row;
 }
 
 #hours-city {
@@ -182,9 +184,117 @@ footer p {
 
 
 
+@media screen and (min-width: 768px) and (max-width: 960px) {
+.logo {
+    margin-left: 10px;
+}
 
-@media screen and (min-width: 768px) and (max-width: 960px) 
+h1 {
+    font-size: 90px;
+    margin: 40px;
+}
 
+.banner p {
+    font-size: 35px;
+    margin-left: 40px;
+}
 
+#background-image {
+    margin-left: 100px;
+}
 
-@media screen and (max-width: 768px) 
+.check {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+#hours {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 250px;
+}
+}
+
+@media screen and (min-width: 960px) {
+    #logo {
+        width: 15%;
+        margin-left: 40px;
+    }
+    
+    main {
+        margin: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    h1 {
+        font-size: 60px;
+        margin: 25px;
+        line-height: 75px;
+    }
+    
+    .banner p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    #background-image{
+        width: 100%;
+        float: left;
+    }
+
+    .apply {
+        width: 100%;
+    }
+
+     h2 {
+         font-size: 30px;
+         font-weight: bolder;
+     }
+
+     .apply-info p {
+         font-size: 20px;
+     }
+
+     .apply-info .check {
+         font-size: 10px;
+     }
+
+     h3 {
+         font-size: 20px;
+     }
+
+     footer p {
+         font-size: 15px;
+     }
+
+#hours.hours {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 950px;
+}
+
+ 
+

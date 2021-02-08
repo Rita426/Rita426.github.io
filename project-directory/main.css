@@ -43,24 +43,27 @@ table {
 }
 
 
-/* -----------MOBILE STYLE ---------- */
+/* ----------------------------------------
+                 MOBILE STYLE 
+----------------------------------------- */
+/* set the whole body in column to match the mockup */
 body {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #f7f7ff;
 }
-
+/* set the logo size not too much big to match the scene */
 .logo {
     width: 50%;
 }
-
+/* set the image as background in the center of the page */
 main {
     background-image: url(images/images/bg-image/scooter.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 400px;
 }
-
+/* set the header section to match the mobile style */
 h1 {
     font-size: 90px;
     font-weight: bolder;
@@ -71,7 +74,7 @@ h1 {
     margin-left: 25px;
     font-size: 35px;
 }
-
+/* make the sets are matching this section  */
 .apply {
     display: flex;
     justify-content: center;
@@ -137,7 +140,7 @@ button {
 span {
     color: #ff8480;
 }
-
+/* set the footer in basic style  */
 footer {
     background-color: #fffd8c;
     padding: 10px;
@@ -188,7 +191,10 @@ footer p {
 }
 
 
-/* -------------TABLET STYLE ---------- */
+/* ----------------------------------
+              TABLET STYLE
+ --------------------------------- */
+/* the content need to match blow area in different data with basic mobile style */
 @media screen and (min-width: 768px) and (max-width: 960px) {
 body {
     width: inherit;
@@ -197,10 +203,11 @@ body {
 .logo {
     margin-left: 10px;
 }
-
+/* increase the background size to mach the scene */
 main {
     background-image: url(../images/bg-image/scooter.svg) center no-repeat;
 }
+
 h1 {
     font-size: 90px;
     margin: 40px;
@@ -237,7 +244,10 @@ footer p {
 }
 }
 
-/* ---------------DESKTOP STYLE ----------- */
+/* --------------- ------------------------ 
+               DESKTOP STYLE                
+ --------------------------------------- */
+/* most sets are changed in blow area in order to increase the whole content on the web page */
 @media screen and (min-width: 960px) {
 #logo {
     width: 15%;

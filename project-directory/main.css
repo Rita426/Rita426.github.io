@@ -43,18 +43,23 @@ table {
 }
 
 
-
+/* -----------MOBILE STYLE ---------- */
 body {
     max-width: 1200px;
     margin: 0 auto;
-    width: 95%;
+    background-color: #f7f7ff;
 }
-
 
 .logo {
     width: 50%;
 }
 
+main {
+    background-image: url(images/images/bg-image/scooter.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
 
 h1 {
     font-size: 90px;
@@ -67,30 +72,20 @@ h1 {
     font-size: 35px;
 }
 
-#background-image {
-    width: 70%;
-    float: center;
-}
-
-.bike {
-   margin-left: 80px;
-}
-
 .apply {
     display: flex;
     justify-content: center;
+    margin-top: 400px;
 }
 
  form {
+    margin-bottom: 30px;
     width: 70%;
     padding: 5px;
     border: 2px solid white;
     border-radius: 15px;
-    background-color:wheat;
-}
-
-.apply-form {
-    margin: 
+    background-color:white;
+    box-shadow: 3px 3px #333;
 }
 
 .apply-form-section {
@@ -129,14 +124,15 @@ button {
     background-color: #57eeab;
     border-color: #57eeab;
     border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .check {
     margin-left: 20px;
 }
-
 
 span {
     color: #ff8480;
@@ -165,15 +161,24 @@ footer p {
 }
 
 .hours-info {
-    margin: 10px;
-    padding: 10px;
+    width: 20%;
 }
-
+.city-info {
+    width: 79%;
+}
+.hours{
+    width: 80%;
+}
+.city{
+    width: 90%;
+}
 #calculate.calculate {
     color: white;
     background-color: #ff8480;
     border-color: #ff8480;
     border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
 }
 
 .icons {
@@ -183,12 +188,19 @@ footer p {
 }
 
 
-
+/* -------------TABLET STYLE ---------- */
 @media screen and (min-width: 768px) and (max-width: 960px) {
+body {
+    width: inherit;
+}
+
 .logo {
     margin-left: 10px;
 }
 
+main {
+    background-image: url(../images/bg-image/scooter.svg) center no-repeat;
+}
 h1 {
     font-size: 90px;
     margin: 40px;
@@ -197,10 +209,6 @@ h1 {
 .banner p {
     font-size: 35px;
     margin-left: 40px;
-}
-
-#background-image {
-    margin-left: 100px;
 }
 
 .check {
@@ -215,7 +223,7 @@ footer p {
     font-size: 20px;
 }
 
-#hours {
+#allhours {
     display: flex;
     flex-direction: row;
     margin: 5px;
@@ -229,63 +237,77 @@ footer p {
 }
 }
 
+/* ---------------DESKTOP STYLE ----------- */
 @media screen and (min-width: 960px) {
-    #logo {
-        width: 15%;
-        margin-left: 40px;
-    }
+#logo {
+    width: 15%;
+    margin-left: 30px;
+}
     
-    main {
-        margin: 40px;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    h1 {
-        font-size: 60px;
-        margin: 25px;
-        line-height: 75px;
-    }
-    
-    .banner p {
-        font-size: 20px;
-        line-height: 25px;
-    }
-    
-    #background-image{
-        width: 100%;
-        float: left;
-    }
-
-    .apply {
-        width: 100%;
-    }
-
-     h2 {
-         font-size: 30px;
-         font-weight: bolder;
-     }
-
-     .apply-info p {
-         font-size: 20px;
-     }
-
-     .apply-info .check {
-         font-size: 10px;
-     }
-
-     h3 {
-         font-size: 20px;
-     }
-
-     footer p {
-         font-size: 15px;
-     }
-
-#hours.hours {
+main {
+    margin: 30px;
     display: flex;
     flex-direction: row;
-    width: 40%;
+    background-image: url(../images/bg-image/scooter.svg) center center no-repeat;
+}
+    
+h1 {
+    font-size: 60px;
+    margin: 25px;
+    line-height: 75px;
+}
+    
+.banner p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.apply {
+     width: 100%;
+     margin-top: 0;;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.apply-info p {
+    font-size: 20px;
+}
+
+.apply-info .check {
+    font-size: 10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+footer {
+    display: block;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+#allhours {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+}
+
+#footer-container section{
+    width: 100%;
+}
+
+#allhours,
+.calculate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .icons {
@@ -293,8 +315,6 @@ footer p {
     justify-content: flex-end;
     justify-content: space-between;
     width: 20%;
-    margin-left: 950px;
+    margin-left: 750px;
 }
-
- 
-
+}

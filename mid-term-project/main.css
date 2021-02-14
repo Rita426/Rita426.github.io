@@ -41,7 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+html{
+    font-size: 1 rem;
+}
 /* ------------------------------------
              CUSTOM STYLE                                             
 ---------------------------------------*/
@@ -62,10 +64,16 @@ header {
 }
 
 ul li{
-    padding: 10px;
+    padding: 16px;
+    text-align: center;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.nav-home {
+    font-size:1.5rem;
+    font-weight: bold;
 }

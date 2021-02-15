@@ -77,3 +77,61 @@ a {
     font-size:1.5rem;
     font-weight: bold;
 }
+
+.title-left {
+    margin: 20px;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    max-width: 90%;
+    padding-left: 20px;
+    line-height: 60px;
+}
+
+.title-left p {
+    font-size: 1.5rem;
+    max-width: 80%;
+    padding-left: 20px;
+    padding-top: 26px;
+    line-height: 35px;
+}
+
+.title-icons {
+    margin: 20px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-icons p {
+    font-size: 0.8rem;
+    color: #26A682;
+}
+
+.title-left button {
+    width: 80%;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    background-color: #26A682;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-style: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center; 
+}
+
+.title-right img {
+    max-width: 80%;
+    
+}
+
+.title-right {
+    display: flex;
+    justify-content: center;
+}

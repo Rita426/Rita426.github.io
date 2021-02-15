@@ -108,9 +108,28 @@ h1 {
 .title-right {
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
-.banner-about img {
+.banner-about {
     max-width: 100%;
-    color: #26A682;
+    height: 320px;
+    background-image: url(images/about.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-about {
+    background-image: url(images/about.jpg), linear-gradient(#26A682,#26A682);
+    background-blend-mode:multiply;
+    background-size: cover;
+    }
+    
+.banner-about p{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
 }

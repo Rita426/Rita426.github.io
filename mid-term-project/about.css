@@ -124,12 +124,202 @@ h1 {
     background-image: url(images/about.jpg), linear-gradient(#26A682,#26A682);
     background-blend-mode:multiply;
     background-size: cover;
-    }
+}
     
-.banner-about p{
+.banner-about p {
     display: flex;
     align-items: center;
     font-size: 3rem;
     font-weight: bold;
     color: white;
+}
+
+.banner-info h2 {
+    font-size: 2rem;
+    max-width: 90%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.banner-info {
+    background-color: #F2F2F2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.banner-info p {
+    font-size: 1.2rem;
+    max-width: 80%;
+    padding-left: 20px;
+    line-height: 35px;
+    font-weight:lighter;
+}
+
+.banner-services {
+    max-width: 100%;
+    height: 320px;
+    background-image: url(images/services.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-services {
+    background-image: url(images/services.jpg), linear-gradient(#26A682,#26A682);
+    background-blend-mode:multiply;
+    background-size: cover;
+}
+
+.banner-services p {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.services-info span {
+    color: #26A682;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.services-info h2 {
+    font-size: 2rem;
+    max-width: 90%;
+    padding-left: 20px;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.services-info p {
+    font-size: 1.2rem;
+    max-width: 80%;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 35px;
+    font-weight:lighter;
+}
+
+.serviceb {
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+.sub {
+    max-width: 100%;
+    height: 120px;
+    background-color: #3C3B3A;
+}
+
+.sub p {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.suba button {
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    background-color: #26A682;
+    font-size: 1rem;
+    font-weight: bold;
+    border-style: none;
+}
+
+.suba {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-info h2 {
+    font-size: 2rem;
+    max-width: 90%;
+    padding-left: 20px;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.sub-info p {
+    color:black;
+    font-size: 1.2rem;
+    max-width: 80%;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 35px;
+    font-weight:lighter;
+}
+
+.sub-info span {
+    color: #26A682;
+    font-size: 1.5rem;
+}
+
+.sub-infob {
+    background-color: #F2F2F2;
+    padding:10px;
+}
+
+.special {
+    display: flex;
+    justify-content: center;
+}
+
+.special p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    max-width: 40%;
+    margin: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.special-pics img {
+    width:100px;
+    height:100px;
+    padding: 10px;
+}
+
+.special-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #3C3B3A;
+    height: 150px;
+}
+
+footer p {
+    color: white;
+}
+
+.followa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followus p{
+    font-size: 1.8rem;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.followb {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.followb img {
+    width: 25px;
 }

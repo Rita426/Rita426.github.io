@@ -48,7 +48,7 @@ html{
 /* ------------------------------------
              CUSTOM STYLE                                             
 ---------------------------------------*/
-
+/*change the header's background color and position */
 header {
     background-color: #3C3B3A;
     width:100%;
@@ -58,31 +58,31 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
-
+/*change the logo's size to match the scene */
 .logo {
     width: 150px;
     height: 150px;
 }
-
+/*change the nav's position */
 ul li{
     padding: 16px;
     text-align: center;
 }
-
+/*change the nav's color */
 a {
     color: white;
     text-decoration: none;
 }
-
+/*change the nav's font size */
 .nav-home {
     font-size:1.5rem;
     font-weight: bold;
 }
-
+/*change the main content's position */
 .title-left {
     margin: 20px;
 }
-
+/*change the h1's font size */
 h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -90,7 +90,7 @@ h1 {
     padding-left: 20px;
     line-height: 60px;
 }
-
+/*change the text's font size */
 .title-left p {
     font-size: 1.5rem;
     max-width: 80%;
@@ -99,19 +99,19 @@ h1 {
     line-height: 35px;
     font-weight:lighter;
 }
-
+/*change the icon's position */
 .title-icons {
     margin: 20px;
     max-width: 90%;
     display: flex;
     justify-content: space-around;
 }
-
+/*change the icon text's font size */
 .title-icons p {
     font-size: 0.8rem;
     color: #26A682;
 }
-
+/*change the button's size and color */
 .title-left button {
     width: 80%;
     height: 60px;
@@ -124,25 +124,25 @@ h1 {
     border-style: none;
     box-shadow: 3px 3px #333;
 }
-
+/*change the button's position */
 .button {
     display: flex;
     justify-content: center; 
 }
-
+/*change the image's size */
 .title-right img {
     max-width: 80%;
 }
-
+/*change the image's position */
 .title-right {
     display: flex;
     justify-content: center;
 }
-
+/*change the image's length */
 .school img {
     max-width: 100%;
 }
-
+/*change the h2's font size */
 h2 {
     margin-top: 26px;
     font-size: 2rem;
@@ -151,10 +151,11 @@ h2 {
     line-height: 50px;
     font-style:italic;
 }
+/*change the content's position */
 .schoolb {
     margin-left: 20px;
 }
-
+/*change the text's font size */
 .schoolb p {
     font-size: 1.1rem;
     max-width: 80%;
@@ -162,12 +163,12 @@ h2 {
     line-height: 30px;
     font-weight:lighter;
 }
-
+/*change the span text's font style */
 .schoolb span {
     color:#26A682;
     font-style:normal;
 }
-
+/*change the button's size and color */
 .schoolb button {
     width: 46%;
     height: 45px;
@@ -180,42 +181,42 @@ h2 {
     border-style: none;
     box-shadow: 3px 3px #333;
 }
-
+/*change the button's position */
 .buttona {
     display: flex;
     justify-content:flex-end; 
     max-width: 80%;
     padding: 20px;
 }
-
+/*change the banner's background color */
 .banner {
     background-color: #3C3B3A;
     padding:20px;
 }
-
+/*change the image's border size */
 .bannera img {
     max-width: 50%;
     box-sizing: border-box;
     border-radius: 360px;
     border:5px solid #FFF;
 }
-
+/*change the banner's position */
 .bannera {
     display: flex;
     justify-content: center;
 }
-
+/*change the h3's hight and color */
 .bannerb h3 {
     color: white;
     line-height: 25px;
 }
-
+/*change the bannerb's position */
 .bannerb {
     display: flex;
     justify-content: center;
     padding-top: 15px;
 }
-
+/*change the text's font size */
 .bannerc p {
     color: white;
     font-size: 1.3rem;
@@ -223,28 +224,28 @@ h2 {
     line-height: 30px;
     font-weight:lighter;
 }
-
+/*change the image's size */
 .section-ent img {
     max-width: 100%;
 }
-
+/*change the h3's font size and color */
 .section-entb h3 {
     font-size: 1.8rem;
     color: black;
     font-style:italic;
 }
-
+/*change the span h3's font size and color */
 .section-entb h3 span {
     color: #26A682;
     font-style: normal;
 }
-
+/*change the text's size */
 .section-entb {
     padding: 20px;
     padding-bottom: 0px;
     line-height: 40px;
 }
-
+/*change the text's font size */
 .section-entc p{
     line-height: 45px;
     padding: 16px;
@@ -252,7 +253,7 @@ h2 {
     font-size: 1.5rem;
     font-weight:lighter;
 }
-
+/*change the button's size and color */
 .section-ent button {
     width: 46%;
     height: 45px;
@@ -265,43 +266,43 @@ h2 {
     border-style: none;
     box-shadow: 3px 3px #333;
 }
-
+/*change the button's position */
 .section-entd {
     display: flex;
     justify-content:flex-end; 
     max-width: 80%;
     padding: 20px;
 }
-
+/*change the footer's height and color */
 footer {
     background-color: #3C3B3A;
     height: 150px;
 }
-
+/*change the footer's text color */
 footer p {
     color: white;
 }
-
+/*change the footer container's position */
 .followa {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+/*change the footer's text font size */
 .followus p{
     font-size: 1.8rem;
     padding: 10px;
     padding-top: 30px;
 }
-
+/*change the footer container's position */
 .followb {
     padding-right: 20px;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
 }
-
+/*change the footer image's size */
 .followb img {
     width: 25px;
 }
@@ -309,37 +310,38 @@ footer p {
 /* ------------------------------------------------------------
                  TABLET STYLE                                                                                    
 ---------------------------------------------------------------*/
+/* set up the page vision in this area */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 body {
     width: inherit;
 }
-
+/*change the header's size and position */
 header {
     max-width: 100%;
     height: 70px;
     display: flex;
     flex-direction: row;
 }
-
+/*change the nav's position */
 ul {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
+/*change the logo's size and position to match the scene */
 .logo {
     max-width: 60px;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
 }
-
+/*change the image's position */
 header img {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
-
+/*change the h1's font size and position*/
 h1 {
     font-size: 4rem;
     font-weight: bold;
@@ -347,7 +349,7 @@ h1 {
     padding-left: 20px;
     line-height: 70px;
 }
-
+/*change the button's size and color */
 .title-left button {
     width: 40%;
     height: 70px;
@@ -360,27 +362,27 @@ h1 {
     border-style: none;
     box-shadow: 3px 3px #333;
 }
-
+/*change the image's size */
 .title-right img {
     max-width: 50%;
 }
-
+/*change the image's size and position*/
 .school img {
     width: 100%;
     height: 250px;
     margin-top: 30px;
 }
-
+/*change the image's size */
 .bannera img {
     max-width: 30%;
 }
-
+/*change the banner's position */
 .banner {
     display: grid;
     grid-auto-flow: column;
     align-items: start;
 }       
-
+/*change the image's size */
 .section-ent img {
     width: 100%;
     height: 180px;
@@ -390,94 +392,95 @@ h1 {
 /*-------------------------------------------                                                      
                   DESKTOP STYLE
 ---------------------------------------------*/
+/* set up the page vision in this area */
 @media screen and (min-width: 1024px){
 body {
     width: inherit;
 }
-
+/*change the header's size and position */
 header {
     max-width: 100%;
     height: 70px;
     display: flex;
     flex-direction: row;
 }
-
+/*change the nav's position */
 ul {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
+/*change the logo's position */
 .logo {
     max-width: 60px;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
 }
-
+/*change the image's position */
 header img {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
-
+/*change the container's position */
 .discover {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
+/*change the container's size */
 .title-right {
     width: 100%;
     height: 500px;
 }
-
+/*change the text's font size */
 .title-left p {
     font-size: 0.8rem;
     line-height: 15px;
 }
-
+/*change the button's size */
 .title-left button {
     height: 50px;
 }
-
+/*change the container's position and color*/
 .school {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #F2F2F2;
 }
-
+/*change the image's size and position */
 .schoola img {
     width: 90%;
     height: 350px;
     padding-left: 50px;
     text-align: center;
 }
-
+/*change the banner's size and position */
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
     align-items:center;
     padding: 30px;
 }       
-
+/*change the container's position */
 .section-ent {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
-
+/*change the text's font size */
 .section-entc p {
     font-size: 0.8rem;
     line-height:20px;
 }
-
+/*change the image's size */
 .section-enta img {
     width: 80%;
     height: 300px;
 }
-
+/*change the button's size */
 .section-ent button {
     width: 60%;
     height: 35px;

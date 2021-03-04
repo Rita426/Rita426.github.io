@@ -102,7 +102,6 @@ h1 {
 
 .title-right img {
     max-width: 80%;
-    
 }
 
 .title-right {
@@ -201,6 +200,10 @@ h1 {
     font-weight:lighter;
 }
 
+.services-info img {
+    display: none;
+}
+
 .serviceb {
     background-color: #F2F2F2;
     padding: 10px;
@@ -242,6 +245,10 @@ h1 {
     padding-left: 20px;
     margin-top: 10px;
     line-height: 40px;
+}
+
+.sub-info img {
+    display: none;
 }
 
 .sub-info p {
@@ -323,3 +330,184 @@ footer p {
 .followb img {
     width: 25px;
 }
+
+/* -----------------------------------------
+               TABLET STYLE                              
+---------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+body {
+    width: inherit;
+}
+
+header {
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo {
+    max-width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.servicea {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline; 
+    justify-content: center;
+    justify-content: space-evenly;    
+}
+}
+
+/* --------------------------------------------
+                    DESKTOP STYLE                            
+------------------------------------------------*/
+@media screen and (min-width: 1024px) {
+body {
+    width: inherit;
+}
+
+header {
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo {
+    max-width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.title-left {
+    width: 80%;
+}
+
+.title-right img {
+    max-width: 100%;
+}
+
+#title-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+.banner-info {
+    padding:40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sub {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline; 
+    justify-content: center;
+}
+
+.special-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

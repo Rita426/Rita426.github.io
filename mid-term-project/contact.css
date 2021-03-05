@@ -88,9 +88,13 @@ h1 {
     line-height: 60px;
 }
 
+.title {
+    margin-left: 20px;
+}
+
 .title p {
     font-size: 1.5rem;
-    max-width: 80%;
+    max-width: 100%;
     padding: 20px;
     padding-top: 26px;
     line-height: 35px;
@@ -99,7 +103,7 @@ h1 {
 
 .title-pic img {
     margin: 20px;
-   max-width: 80%;
+    max-width: 80%;
 }
 
 .title-pic {
@@ -118,7 +122,9 @@ h2 {
     display: flex;
    justify-content:flex-start;
    color: white;
-   font-size: 2rem;
+   font-size: 4rem;
+   font-weight: bold;
+   padding: 20px;
 }
 
 form {
@@ -186,6 +192,7 @@ button {
 }
 
 .map iframe {
+    max-width: 100%;
     height: 300px;
 }
 
@@ -220,4 +227,136 @@ footer p {
 
 .followb img {
     width: 25px;
+}
+
+/* ---------------------------------------
+                 TABLET STYLE                          
+------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+body {
+    width: inherit;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo {
+    max-width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+h1 {
+    font-size: 4.5rem;
+    line-height: 80px;
+}
+
+.title {
+    margin-left: 50px;
+}
+
+.location-info {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.location-info {
+    margin-left: 0;    
+}
+
+.location h2 {
+    font-size: 3rem;
+    font-weight: bold;
+ }
+
+ .location span {
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+button {
+    width: 30%;
+    height: 60px;
+    display: grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.contact-but {
+    margin-right:30px;
+    display: flex;
+   justify-content: flex-end;
+}
+}
+
+/* ----------------------------------------
+                DESKTOP STYLE                            
+-------------------------------------------*/
+@media screen and (min-width: 1024px) {
+body {
+    width: inherit;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo {
+    max-width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+button {
+    width: 30%;
+    height: 60px;
+    display: grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.contact-but {
+    display: flex;
+   justify-content: flex-end;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items:center; 
+    justify-content: center;
+}
+
+
+
+
+
+
 }

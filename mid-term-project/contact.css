@@ -184,7 +184,6 @@ button {
     line-height: 30px;
 }
 
-
 .location-info {
     margin-top: 15px;
     margin-left: 30px;
@@ -252,9 +251,11 @@ ul {
 
 .logo {
     max-width: 60px;
+}
+
+.header-logo {
     display: flex;
-    flex-direction: row;
-    align-self: flex-start;
+    justify-content:flex-start;
 }
 
 h1 {

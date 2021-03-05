@@ -359,10 +359,11 @@ ul {
     align-self: flex-start;
 }
 
-.servicea {
+/* .servicea { 
     display: flex;
     flex-direction: column;
 }
+*/
 
 .sub {
     height: 70px;

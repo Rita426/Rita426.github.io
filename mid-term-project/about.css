@@ -47,7 +47,7 @@ html{
 /* ------------------------------------
              CUSTOM STYLE                                             
 ---------------------------------------*/
-
+/*change the header's background color and position */
 header {
     background-color: #3C3B3A;
     width:100%;
@@ -57,31 +57,31 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
-
+/*change the logo's size to match the scene */
 .logo {
     width: 150px;
     height: 150px;
 }
-
+/*change the nav's position */
 ul li{
     padding: 16px;
     text-align: center;
 }
-
+/*change the nav's color */
 a {
     color: white;
     text-decoration: none;
 }
-
+/*change the nav's font size */
 .nav-about {
     font-size:1.5rem;
     font-weight: bold;
 }
-
+/*change the title-left's position */
 .title-left {
     margin: 20px;
 }
-
+/*change the h1's font size */
 h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -89,7 +89,7 @@ h1 {
     padding-left: 20px;
     line-height: 60px;
 }
-
+/*change the text's font size */
 .title-left p {
     font-size: 1.5rem;
     max-width: 80%;
@@ -98,17 +98,17 @@ h1 {
     line-height: 35px;
     font-weight:lighter;
 }
-
+/*change the image's position */
 .title-right img {
     max-width: 80%;
 }
-
+/*change the title-right's position */
 .title-right {
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
 }
-
+/*change the banner's position and adding the background image*/
 .banner-about {
     max-width: 100%;
     height: 320px;
@@ -117,13 +117,13 @@ h1 {
     display: flex;
     justify-content: center;
 }
-
+/*add the background image's color in banner area*/
 .banner-about {
     background-image: url(images/about.jpg), linear-gradient(#26A682,#26A682);
     background-blend-mode:multiply;
     background-size: cover;
 }
-    
+/*change the text's font size and color and position */   
 .banner-about p {
     display: flex;
     align-items: center;
@@ -131,20 +131,20 @@ h1 {
     font-weight: bold;
     color: white;
 }
-
+/*change the h2's font size */
 .banner-info h2 {
     font-size: 2rem;
     max-width: 90%;
     padding: 10px;
     padding-left: 20px;
 }
-
+/*change the banner's text color and position */
 .banner-info {
     background-color: #F2F2F2;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
+/*change the banner's text size and position */
 .banner-info p {
     font-size: 1.2rem;
     max-width: 80%;
@@ -152,7 +152,7 @@ h1 {
     line-height: 35px;
     font-weight:lighter;
 }
-
+/*change the .banner-services's position and adding the background image*/
 .banner-services {
     max-width: 100%;
     height: 320px;
@@ -161,13 +161,13 @@ h1 {
     display: flex;
     justify-content: center;
 }
-
+/*add the background image's color in .banner-services area*/
 .banner-services {
     background-image: url(images/services.jpg), linear-gradient(#26A682,#26A682);
     background-blend-mode:multiply;
     background-size: cover;
 }
-
+/*change the text's font size and color*/
 .banner-services p {
     display: flex;
     align-items: center;
@@ -175,13 +175,13 @@ h1 {
     font-weight: bold;
     color: white;
 }
-
+/*change the span's text font size and color*/
 .services-info span {
     color: #26A682;
     font-size: 1.5rem;
     font-weight: normal;
 }
-
+/*change the h2's font size and position*/
 .services-info h2 {
     font-size: 2rem;
     max-width: 90%;
@@ -189,7 +189,7 @@ h1 {
     margin-top: 10px;
     line-height: 40px;
 }
-
+/*change the text's size and position */
 .services-info p {
     font-size: 1.2rem;
     max-width: 80%;
@@ -198,29 +198,29 @@ h1 {
     line-height: 35px;
     font-weight:lighter;
 }
-
+/*set the images in services-info area are not allowed to showing */
 .services-info img {
     display: none;
 }
-
+/*change the background color and position */
 .serviceb {
     background-color: #F2F2F2;
     padding: 10px;
 }
-
+/*change the background color and size */
 .sub {
     max-width: 100%;
     height: 120px;
     background-color: #3C3B3A;
 }
-
+/*change the text's color and position */
 .sub p {
     color: white;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 10px;
 }
-
+/*change the button's position and color*/
 .suba button {
     width: 200px;
     height: 45px;
@@ -232,12 +232,12 @@ h1 {
     font-weight: bold;
     border-style: none;
 }
-
+/*change the suba's position */
 .suba {
     display: flex;
     justify-content: center;
 }
-
+/*change the h2's font size and position*/
 .sub-info h2 {
     font-size: 2rem;
     max-width: 90%;
@@ -245,11 +245,11 @@ h1 {
     margin-top: 10px;
     line-height: 40px;
 }
-
+/*set the images in seb-info area are not allowed to showing up*/
 .sub-info img {
     display: none;
 }
-
+/*change the text's size and position and color*/
 .sub-info p {
     color:black;
     font-size: 1.2rem;
@@ -259,22 +259,22 @@ h1 {
     line-height: 35px;
     font-weight:lighter;
 }
-
+/*change the span's text font size and color*/
 .sub-info span {
     color: #26A682;
     font-size: 1.5rem;
 }
-
+/*change this area's color and position */
 .sub-infob {
     background-color: #F2F2F2;
     padding:10px;
 }
-
+/*change the special's position */
 .special {
     display: flex;
     justify-content: center;
 }
-
+/*change the text's size and position */
 .special p {
     font-size: 2.5rem;
     font-weight: bold;
@@ -283,55 +283,55 @@ h1 {
     text-align: center;
     line-height: 50px;
 }
-
+/*change the image's size and position */
 .special-pics img {
     width:100px;
     height:100px;
     padding: 10px;
 }
-
+/*change this area's position */
 .special-pics {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+/*change the footer's color and size */
 footer {
     background-color: #3C3B3A;
     height: 150px;
 }
-
+/*change the text in footer's color */
 footer p {
     color: white;
 }
-
+/*change the footer container's position */
 .followa {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+/*change the footer text's position */
 .followus p{
     font-size: 1.8rem;
     padding: 10px;
     padding-top: 30px;
 }
-
+/*change the footer container's position */
 .followb {
     padding-right: 20px;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
 }
-
+/*change the footer container's position */
 .followb {
     position: relative;
     right: 0;
     top: -40px;
 }
-
+/*change the footer image's size */
 .followb img {
     width: 25px;
 }
@@ -343,96 +343,94 @@ footer p {
 body {
     width: inherit;
 }
-
+/*change the header's size and position */
 header {
     max-width: 100%;
     height: 70px;
     display: flex;
     flex-direction: row;
 }
-
+/*change the nav's position */
 ul {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
+/*change the logo's size and position to match the scene */
 .logo {
     max-width: 60px;
     margin-left: 50px;
 }
-
+/*change the logo's position in header area */
 .header-logo {
     margin-right: auto;
     display: flex;
     justify-content:flex-start;
 }
-
-
+/*reset the images in these areas are allowed to showing up */
 .services-info img,
 .sub-info img{
     display:inline;
 }
-
+/*change the position to match the scene */
 .servicea {
     margin: 40px;
     display: flex;
     flex-direction:row-reverse;
 }
-
+/*change the image's size */
 .services-imga img {
     width: 90%;
     height:100%;
 }
-
+/*change the serviceb's position */
 .serviceb {
     padding: 30px;
     display: flex;
 }
-
+/*change the serviceb's position */
 .serviceb {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-
-
+/*change the image's size */
 .services-imgb img {
     width: 90%;
     height:100%;
 }
-
+/*change the text's position */
 .services-info h2,
 .services-info p{
    padding-left: 10px;    
 }
-
+/*change the sub-info's position */
 .sub-infoa {
     margin: 40px;
     display: flex;
     flex-direction:row-reverse;
 }
-
+/*change the image's size */
 .sub-infoaimg img {
     width: 90%;
     height:100%;
 }
-
+/*change the sub-info's size and position */
 .sub-infob {
     width: 90%;
     padding: 30px;
     display: flex;
 }
-
+/*change the sub-info's position */
 .sub-infob {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-
+/*change the image's size */
 .sub-infobimg img {
     width: 90%;
     height:100%;
 }
-
+/*change the sub area's size and position */
 .sub {
     height: 70px;
     display: flex;
@@ -450,39 +448,39 @@ ul {
 body {
     width: inherit;
 }
-
+/*change the header's size and position */
 header {
     max-width: 100%;
     height: 70px;
     display: flex;
     flex-direction: row;
 }
-
+/*change the nav's position */
 ul {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
+/*change the logo's position */
 .logo {
     max-width: 60px;
     margin-left: 90px;
 }
-
+/*change the logo's position */
 .header-logo {
     margin-right: auto;
     display: flex;
     justify-content:flex-start;
 }
-
+/*change the title-left's position */
 .title-left {
     width: 80%;
 }
-
+/*change the image's size */
 .title-right img {
     max-width: 100%;
 }
-
+/*change the title area's position */
 #title-container {
     padding: 50px;
     display: flex;
@@ -490,7 +488,7 @@ ul {
     justify-content:flex-start;
     align-items:flex-start;
 }
-
+/*change the banner's position */
 .banner-info {
     padding:40px;
     padding-top: 80px;
@@ -501,71 +499,70 @@ ul {
     align-items: center;
     justify-content: space-evenly;
 }
-
+/*reset the images in these areas are allowed to showing up */
 .services-info img,
 .sub-info img{
     display:inline;
 }
-
+/*change the servicea's position */
 .servicea {
     padding: 40px;
     display: flex;
     flex-direction:row-reverse;
 }
-
+/*change the image's size */
 .services-imga img {
     width: 100%;
     height:80%;
 }
-
+/*change the serviceb's position */
 .serviceb {
     padding: 40px;
     display: flex;
 }
-
+/*change the serviceb's position */
 .serviceb {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-
+/*change the image's size */
 .services-imgb img {
     width: 100%;
     height:80%;
 }
-
+/*change the text's position */
 .services-info h2,
 .services-info p{
    padding-left: 10px;    
 }
-
+/*change the sub-infoa's position */
 .sub-infoa {
     margin: 40px;
     display: flex;
     flex-direction:row-reverse;
 }
-
+/*change the image's size */
 .sub-infoaimg img {
     width: 100%;
     height:80%;
 }
-
+/*change the sub-info's size and position */
 .sub-infob {
     width: 90%;
     padding: 30px;
     display: flex;
 }
-
+/*change the sub-info's position */
 .sub-infob {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+/*change the image's size */
 .sub-infobimg img {
     width: 100%;
     height:80%;
 }
-
+/*change the sub area's size and position */
 .sub {
     height: 70px;
     display: flex;
@@ -573,7 +570,7 @@ ul {
     align-items:baseline; 
     justify-content: center;
 }
-
+/*change this area's position */
 .special-pics {
     display: flex;
     flex-direction: row;

@@ -42,13 +42,12 @@ table {
 	border-spacing: 0;
 }
 html{
-    font-size: 1 rem;
     font-family: Raleway, sans-serif;
 }
 /* ------------------------------------
              CUSTOM STYLE                                             
 ---------------------------------------*/
-
+/*change the header's background color and position */
 header {
     background-color: #3C3B3A;
     width:100%;
@@ -58,27 +57,27 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
-
+/*change the logo's size to match the scene */
 .logo {
     width: 150px;
     height: 150px;
 }
-
+/*change the nav's position */
 ul li{
     padding: 16px;
     text-align: center;
 }
-
+/*change the nav's color */
 a {
     color: white;
     text-decoration: none;
 }
-
+/*change the nav's font size */
 .nav-contact {
     font-size:1.5rem;
     font-weight: bold;
 }
-
+/*change the h1's font size */
 h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -87,11 +86,11 @@ h1 {
     padding-top: 15px;
     line-height: 60px;
 }
-
+/*change the title's position */
 .title {
     margin-left: 20px;
 }
-
+/*change the text's font size */
 .title p {
     font-size: 1.5rem;
     max-width: 100%;
@@ -100,24 +99,24 @@ h1 {
     line-height: 35px;
     font-weight:lighter;
 }
-
+/*change the image's position */
 .title-pic img {
     margin: 20px;
     max-width: 80%;
 }
-
+/*change the image's area */
 .title-pic {
     display: flex;
    justify-content: center;
 
 }
-
+/*change the text's position */
 .contact-us {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-
+/*change the h2's font size */
 h2 {
     display: flex;
    justify-content:flex-start;
@@ -126,7 +125,7 @@ h2 {
    font-weight: bold;
    padding: 20px;
 }
-
+/*change the form's color and position */
 form {
     margin-bottom: 30px;
     width: 70%;
@@ -136,11 +135,11 @@ form {
     background-color: #26A682;
     box-shadow: 3px 3px #333;
 }
-
+/*change the text's position */
 form p {
     margin-top: 10px;
 }
-
+/*change the label's position and color */
 .contact-form-input {
     width: 90%;
     height: 35px;
@@ -149,13 +148,14 @@ form p {
     border-radius: 20px;
     border-color: #f7f7ff;
     background-color: #f7f7ff;
+    border-style: none;
 }
-
+/*change the message's position */
 #message {
     height: 80px;
     border-radius: 10px;
 }
-
+/*change the button's position and color*/
 button {
     margin-left: 20px;
     margin-top: 20px;
@@ -170,66 +170,66 @@ button {
     font-size: 30px;
     font-weight: bold;
 }
-
+/*change the h2's font size and position*/
 .location h2 {
    color: black;
    font-size: 2.5rem;
    padding-bottom:15px
 }
-
+/*change the text's size and position */
 .location p {
     font-size: 1.5rem;
     font-weight:lighter;
     max-width: 90%;
     line-height: 30px;
 }
-
+/*change the text's position */
 .location-info {
     margin-top: 15px;
     margin-left: 30px;
     margin-bottom: 40px;
 }
-
+/*change the map's location */
 .map iframe {
     width: 100%;
     height: 300px;
 }
-
+/*change the footer's color and height */
 footer {
     background-color: #3C3B3A;
     height: 150px;
 }
-
+/*change the text in footer's color */
 footer p {
     color: white;
 }
-
+/*change the footer container's position */
 .followa {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+/*change the footer text's position */
 .followus p{
     font-size: 1.8rem;
     padding: 10px;
     padding-top: 30px;
 }
-
+/*change the footer container's position */
 .followb {
     padding-right: 20px;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
 }
-
+/*change the footer container's position */
 .followb {
     position: relative;
     right: 0;
     top: -50px;
 }
-
+/*change the footer image's size */
 .followb img {
     width: 25px;
 }
@@ -241,65 +241,61 @@ footer p {
 body {
     width: inherit;
 }
-
+/*change the header's size and position */
 header {
     width: 100%;
     height: 70px;
     display: flex;
     flex-direction: row;
 }
-
+/*change the nav's position */
 ul {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
+/*change the logo's size and position to match the scene */
 .logo {
     max-width: 60px;
     margin-left: 80px;
 }
-
+/*change the logo's position in header area */
 .header-logo {
     margin-right: auto;
     display: flex;
     justify-content:flex-start;
 }
-
+/*change the h1's font size */
 h1 {
     font-size: 4.5rem;
     line-height: 80px;
 }
-
+/*change the title's position*/
 .title {
     margin-left: 50px;
 }
-
+/*change the location's position*/
 .location-info {
     display: grid;
     justify-content: center;
     align-items: center;
 }
-
+/*change the map's size */
 .map iframe {
     width: 100%;
     height: 300px;
 }
-
-.location-info {
-    margin-left: 0;    
-}
-
+/*change the h2's font size in location's area*/
 .location h2 {
     font-size: 3rem;
     font-weight: bold;
  }
-
+/*change the span's font size and position*/
  .location span {
     font-size: 1.6rem;
     max-width: 100%;
 }
-
+/*change the button's size and position*/
 button {
     width: 30%;
     height: 60px;
@@ -307,7 +303,7 @@ button {
     justify-content:center;
     align-items:center;
 }
-
+/*change the button's position*/
 .contact-but {
     margin-right:30px;
     display: flex;
@@ -322,31 +318,31 @@ button {
 body {
     width: inherit;
 }
-
+/*change the header's size and position */
 header {
     width: 100%;
     height: 70px;
     display: flex;
     flex-direction: row;
 }
-
+/*change the nav's position */
 ul {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
+/*change the logo's position */
 .logo {
     max-width: 60px;
     margin-left: 50px;
 }
-
+/*change the logo's position */
 .header-logo {
     margin-right: auto;
     display: flex;
     justify-content:flex-start;
 }
-
+/*change the content in this area in a row  */
 .up-container {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -354,7 +350,7 @@ ul {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
 }
-
+/*change the button's position */
 button {
     width: 30%;
     height: 60px;
@@ -362,26 +358,23 @@ button {
     justify-content:center;
     align-items:center;
 }
-
+/*change the button's position */
 .contact-but {
     display: flex;
    justify-content: flex-end;
 }
-
+/*change the content in this area in a row  */
 .location {
     margin: 30px;
     display: grid;
     grid-template-columns: 1fr 1.2fr;
 }
-
+/*change the span's size */
 .location-info span {
     width: 100%;
 }
-
+/*change the map's size */
 .map {
     width:70%;
 }
-
-
-
 }

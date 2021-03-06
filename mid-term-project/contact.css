@@ -146,7 +146,7 @@ form p {
     margin: 6px;
     padding-left: 10px;
     border-radius: 20px;
-    border-color: #f7f7ff;
+    border-style: none;
     background-color: #f7f7ff;
     border-style: none;
 }
@@ -162,7 +162,7 @@ button {
     width: 90%;
     height: 40px;
     background-color: #3C3B3A;
-    border-color: #3C3B3A;
+    border-style: none;
     color: white;
     border-radius: 30px;
     cursor: pointer;

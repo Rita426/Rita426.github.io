@@ -42,7 +42,6 @@ table {
 	border-spacing: 0;
 }
 html{
-    font-size: 1 rem;
     font-family: Raleway, sans-serif;
 }
 /* ------------------------------------
@@ -313,6 +312,14 @@ footer p {
 .followb img {
     width: 25px;
 }
+/* add the animation style for the image of arrow */
+.followb img {
+    animation: opacity 0.8s infinite;
+  }
+  @keyframes opacity {
+    0%,20% {opacity:0%}
+    50%,100% {opacity:1}
+  } 
 
 /* ------------------------------------------------------------
                  TABLET STYLE                                                                                    

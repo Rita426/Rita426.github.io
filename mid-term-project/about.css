@@ -335,6 +335,14 @@ footer p {
 .followb img {
     width: 25px;
 }
+/* add the animation style for the image of arrow */
+.followb img {
+    animation: opacity 0.8s infinite;
+  }
+  @keyframes opacity {
+    0%,20% {opacity:0%}
+    50%,100% {opacity:1}
+  } 
 
 /* -----------------------------------------
                TABLET STYLE                              
@@ -569,6 +577,10 @@ ul {
     flex-direction: row;
     align-items:baseline; 
     justify-content: center;
+}
+/*change the sub button's size */
+.suba button{
+    max-width: 70%;
 }
 /*change this area's position */
 .special-pics {
